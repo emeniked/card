@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(243, 234, 227);
+}
+.sectionA {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+.sectionA img {
+    width: 375px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.sectionA .sectionA_bottom {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 50px;
+    height: 563px;
+    width: 375px;
+    background-color: white;
+}
+.sectionA .sectionA_bottom h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sectionA .sectionA_bottom h2 {
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.sectionA .sectionA_bottom p {
+    padding-top: 30px;
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sectionA .sectionA_bottom s {
+    padding: 20px;
+}
+.sectionA .sectionA_bottom h1 {
+    color: seagreen;
+    font-size: 50px;
+}
+.sectionB {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.button button {
+    margin-top: 30px;
+    padding: 10px;
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background: seagreen;
+    font-size: 17px;
+    color: white;
+ }
+.button button img {
+   width: 20px;
+   height: 20px;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+     .sectionA {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     }
+     .sectionA img {
+        width: 100%;
+     }
+     .sectionA .sectionA_bottom {
+        width: 100%;
+     }
+
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .sectionA {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    .sectionA img {
+       width: 100%;
+    }
+    .sectionA .sectionA_bottom {
+       width: 100%;
+    }
+
+}
